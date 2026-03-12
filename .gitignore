@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.log
+*.pt
+!checkpoints/.gitkeep
+data/*.npy
+data/*.csv
+*.egg-info/
+.eggs/
+dist/
+build/
