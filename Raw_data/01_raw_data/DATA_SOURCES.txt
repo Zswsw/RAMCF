@@ -1,0 +1,23 @@
+# Raw Data Sources
+
+## Included in this directory
+- drugbank_all_with_fingerprints_and_svg_strict.csv
+- drug_sideeffect_soc_freq.filtered.long.csv
+- drug_sideeffect_soc_freq.filtered.long_with_pseudo_hlgt.csv
+- drugbank_filtered_by_frequency.csv
+
+## External downloads (place in project root or specify path)
+
+1. glove.6B.300d.txt
+   - ~1GB
+   - Download: https://nlp.stanford.edu/projects/glove/
+   - Suggested path: project root or parent directory
+
+2. drugbank_all_full_database.xml.zip
+   - DrugBank full database (registration required)
+   - Used by 02_drug_ppi_pipeline for target extraction
+
+3. STRING human protein data (for PPI propagation)
+   - 9606.protein.aliases.v12.0.txt.gz
+   - 9606.protein.links.detailed.v12.0.txt.gz
+   - Download: https://string-db.org/cgi/download
