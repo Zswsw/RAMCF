@@ -4,7 +4,7 @@
 
 RAMCF (Rank-Aware Multimodal Contrastive Fusion) predicts the frequency of drug–side effect associations. It leverages multimodal drug features (fingerprint, image, PPI, SMILES) and side-effect features (MedDRA HLGT, SOC, semantic embeddings) with rank-aware contrastive learning and ordinal regression.
 
-## ⚠️ Important Notice ⚠️
+## Notice
 
 **This project requires external data files that are not included in the repository.**
 
